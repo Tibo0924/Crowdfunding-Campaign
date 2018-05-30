@@ -2,78 +2,83 @@
   BASE SETUP
 *****************************/
 
-*, *:before, *:after  {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
-body{
-  background-color:rgb(237, 241, 242);
-  /* display: flex;
-  justify-content:center; */
+
+body {
+  display: flex;
+  justify-content: center;
   margin: 1rem;
   padding: 1rem;
+  background-color: rgb(237, 241, 242);
 }
+
 .wrapper {
   width: 50vw;
-  background-color: rgb(249, 249, 249);
-  font-family: 'Montserrat',sans-serif;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  background: url(./images/card-header.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
+
 header {
   display: flex;
   flex-direction: column;
   font-size: 18pt;
-  
-  }
+}
+
 h1 {
   text-transform: uppercase;
   padding: 1.4rem;
   margin-bottom: 3rem;
   background-color: rgb(245, 245, 245);
   font-weight: 500;
-  
 }
+
 span {
   text-transform: capitalize;
   font-size: small;
   font-weight: 500;
   color: rgb(155, 155, 155);
 }
+
 .fundsection {
   margin-top: -2rem;
   display: flex;
   justify-content: space-around;
   padding-bottom: 2rem;
 }
+
 ul {
   line-height: 2;
 }
+
 li {
   color: rgb(44, 44, 44);
   font-size: 17pt;
   font-weight: bold;
-
 }
-.fundsection_right{
+
+.fundsection_right {
   padding: 1rem;
   line-height: 2;
   font-size: 15pt;
 }
+
 p {
   color: rgb(155, 155, 155);
   padding-bottom: 1.3rem;
   padding-top: 0.2rem;
   font-size: 14pt;
 }
-button:last-of-type{
+
+button:last-of-type {
   background-color: rgb(207, 207, 207);
 }
 
-button{
+button {
   background-color: rgb(44, 222, 115);
   color: rgb(241, 241, 241);
   padding: 0.8rem !important;
@@ -83,16 +88,19 @@ button{
   background-color: rgb(241, 241, 241);
   height: 10px;
 }
+
 .progress-bar {
   background-color: rgb(44, 222, 115);
 }
 
-/* media queries */
-@media all and (min-width: 1024px) and (max-width: 1280px) {}
+/* 
+@media all and (max-width: 1054px){
 
-@media all and (min-width: 768px) and (max-width: 1024px) {}
-
-@media all and (min-width: 480px) and (max-width: 768px) {}
-
-@media all and (max-width: 480px) {}
-
+  h1{
+    font-size: 14pt; 
+  }
+  .fundsection{
+    margin: 0;
+    padding: 0;
+    display: -webkit-inline-box;
+  } */
